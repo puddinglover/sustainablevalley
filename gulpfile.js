@@ -27,7 +27,7 @@ vueify = require('vueify');
 gulp.task('browserSync', function() {
     browserSync({
         server: {
-            baseDir: "app/"
+            baseDir: "dist/"
         },
         options: {
             reloadDelay: 250
@@ -68,7 +68,10 @@ gulp.task('images-deploy', function() {
 //compiling our Javascripts
 gulp.task('scripts', function() {
     //this is where our dev JS scripts are
-    return gulp.src(['app/scripts/src/_includes/**/*.js', 'app/scripts/src/**/*.js'])
+    return gulp.src([
+        'app/scripts/src/_includes/**/*.js',
+        'app/scripts/src/**/*.js',
+      ])
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         //this is the filename of the compressed version of our JS
@@ -205,6 +208,14 @@ gulp.task('clean', function() {
     ]);
 });
 
+
+gulp.task('move' , function(){
+  // the base option sets the relative root for the set of files,
+  // preserving the folder structure
+  gulp.src('app/voteApp/**/*.*', { base: 'app/voteApp/' })
+  .pipe(gulp.dest('dist/voteApp/'));
+});
+
 //create folders using shell
 gulp.task('scaffold', function() {
     return shell.task([
@@ -212,7 +223,8 @@ gulp.task('scaffold', function() {
         'mkdir dist/fonts',
         'mkdir dist/images',
         'mkdir dist/scripts',
-        'mkdir dist/styles'
+        'mkdir dist/styles',
+        'mkdir dist/voteApp'
     ]);
 });
 
@@ -222,11 +234,12 @@ gulp.task('scaffold', function() {
 //  startup the web server,
 //  start up browserSync
 //  compress all scripts and SCSS files
-gulp.task('default', ['browserSync', 'scripts', 'styles'], function() {
+gulp.task('default', ['browserSync', 'scripts', 'styles', 'move'], function() {
     gulp.watch('app/scripts/src/**', ['scripts']);
     gulp.watch('app/styles/scss/**', ['styles']);
     gulp.watch('app/images/**', ['images']);
     gulp.watch('app/*.html', ['html']);
+    gulp.watch('app/voteApp/**', ['move']);
 });
 
 //this is our deployment task, it will set everything for deployment-ready files

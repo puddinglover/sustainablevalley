@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -10,6 +10,11 @@
 
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0-rc.2/angular.js" rel="script">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js" rel="script">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.js" rel="script">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.css" rel="stylesheet">
 
 <body>
 
@@ -38,4 +43,11 @@
     <script src="scripts/app.js"></script>
 </body>
 
+<script src="/app/app.config.js"></script>
+<script src="/app/app.states.js"></script>
+<script src="/app/components/home/home.directives.js"></script>
+<script src="/app/components/home/home.controller.js"></script>
+<script src="/app/components/home/services/home.services.js"></script>
+<script src="/app/components/about/about.controller.js"></script>
+<script src="/app/components/about/about.services.js"></script>
 </html>
