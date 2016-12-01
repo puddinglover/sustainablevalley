@@ -26,13 +26,7 @@ vueify = require('vueify');
 //fires up browserSync
 gulp.task('browserSync', function() {
     browserSync({
-        server: {
-            baseDir: "dist/"
-        },
-        options: {
-            reloadDelay: 250
-        },
-        notify: false
+        proxy: "http://localhost/sustainableValley"
     });
 });
 
@@ -163,10 +157,10 @@ gulp.task('styles-deploy', function() {
         .pipe(gulp.dest('dist/styles'));
 });
 
-//basically just keeping an eye on all HTML files
-gulp.task('html', function() {
-    //watch any and all HTML files and refresh when something changes
-    return gulp.src('app/*.html')
+//basically just keeping an eye on all php files
+gulp.task('php', function() {
+    //watch any and all php files and refresh when something changes
+    return gulp.src('app/*.php')
         .pipe(plumber())
         .pipe(browserSync.reload({
             stream: true
@@ -175,8 +169,8 @@ gulp.task('html', function() {
         .on('error', gutil.log);
 });
 
-//migrating over all HTML files for deployment
-gulp.task('html-deploy', function() {
+//migrating over all php files for deployment
+gulp.task('php-deploy', function() {
     //grab everything, which should include htaccess, robots, etc
     gulp.src('app/*')
         //prevent pipe breaking caused by errors from gulp plugins
@@ -235,12 +229,12 @@ gulp.task('scaffold', function() {
 //  start up browserSync
 //  compress all scripts and SCSS files
 gulp.task('default', ['browserSync', 'scripts', 'styles', 'move'], function() {
-    gulp.watch('app/scripts/src/**', ['scripts']);
-    gulp.watch('app/styles/scss/**', ['styles']);
-    gulp.watch('app/images/**', ['images']);
-    gulp.watch('app/*.html', ['html']);
+    gulp.watch('app/scripts/src/**', ['scripts', 'scripts-deploy']);
+    gulp.watch('app/styles/scss/**', ['styles', 'styles-deploy']);
+    gulp.watch('app/images/**', ['images', 'images-deploy']);
+    gulp.watch('app/*.php', ['php', 'php-deploy']);
     gulp.watch('app/voteApp/**', ['move']);
 });
 
 //this is our deployment task, it will set everything for deployment-ready files
-gulp.task('deploy', gulpSequence('clean', 'scaffold', ['scripts-deploy', 'styles-deploy', 'images-deploy'], 'html-deploy'));
+gulp.task('deploy', gulpSequence('clean', 'scaffold', ['scripts-deploy', 'styles-deploy', 'images-deploy'], 'php-deploy'));
