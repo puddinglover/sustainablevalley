@@ -56,9 +56,10 @@
     <section class="festival">
         <div class="festival__bottom">
             <artikel class="festival__description">
+                <img class="bird-logo--bottom" src="images/fuglelogo.svg" alt="">
+                <img class="branch" src="images/branch.svg" alt="">
                 <div class="festival__description-center">
-                    <img src="images/branch.svg" alt="">
-                    <h1>sustainability in Aarhus</h1>
+                    <h1>University park</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>

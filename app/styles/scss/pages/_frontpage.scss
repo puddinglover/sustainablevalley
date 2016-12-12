@@ -89,6 +89,8 @@
     height: 600px;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
+    box-shadow: inset 0 11px 8px -10px #CCC, inset 0 -11px 8px -10px #CCC;
 
     div {
         background: tomato;
@@ -114,7 +116,7 @@
         background-size: 70%;
 
         &-center {
-            max-width: 45%;
+            max-width: 50%;
             height: auto;
 
             h1 {
@@ -147,15 +149,25 @@
         height: 100%;
         width: 50%;
 
-        img {
+        .branch {
             position: absolute;
             width: 10%;
             left: 0;
             margin: 200px 0;
         }
 
+        .bird-logo--bottom {
+            position: absolute;
+            transform: scaleX(-1);
+            filter: FlipV;
+            transition: 1s ease;
+            width: 4%;
+            margin: 135px 0;
+            left: 30px;
+        }
+
         &-center {
-            max-width: 45%;
+            max-width: 50%;
             height: auto;
 
             h1 {
@@ -170,6 +182,7 @@
 
     &__bottom {
         background: url('../images/park.svg') no-repeat;
+        background-position: bottom;
         height: 100%;
         width: 100%;
     }

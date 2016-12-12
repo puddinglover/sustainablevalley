@@ -13,3 +13,9 @@ $(window).scroll(function() {
         $('.bird-logo').removeClass("bird-logo--transition");
     }
 });
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+        
+    }
+});
