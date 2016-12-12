@@ -1,4 +1,5 @@
 <header class="nav-wrapper">
+    <img class="bird-logo" src="images/fuglelogo.svg" alt="">
     <nav>
         <ul>
             <li><a href="#">Home</a></li>

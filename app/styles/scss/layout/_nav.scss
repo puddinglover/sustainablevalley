@@ -1,11 +1,30 @@
 .nav-wrapper {
+    display: flex;
     background: $primary-white;
     box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.1);
-    height: 100px;
+    height: 80px;
     width: 100%;
     position: fixed;
     padding: 1px;
     z-index: 1;
+
+    .bird-logo {
+        position: relative;
+        transition: 1s ease;
+        top: -100px;
+        left: 20px;
+        width: 4%;
+    }
+
+    .bird-logo--transition {
+        position: relative;
+        transition: 2s ease;
+        transition-delay: 1s;
+        top: 1px;
+        left: 20px;
+        width: 4%;
+    }
+
     nav {
         display: flex;
         align-items: center;
