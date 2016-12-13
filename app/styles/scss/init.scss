@@ -6,6 +6,8 @@
 //global things
 @import 'general/_reset';
 @import 'layout/_nav';
+@import 'layout/_footer';
 
 //pages
-@import 'pages/frontpage';
+@import 'pages/_frontpage';
+@import 'pages/_contact';

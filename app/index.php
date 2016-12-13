@@ -18,14 +18,37 @@
         </div> -->
     </section>
     <section class="tickets">
-        <div class="">
-
-        </div>
-        <div class="">
-
-        </div>
-        <div class="">
-
+        <div class="wrapper">
+            <div class="tickets__card">
+                <h2>Partoutticket</h2>
+                <img src="http://i.bnet.com/blogs/dummyimage.jpg" alt="">
+                <article class="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+                <div class="button button--cards">
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="tickets__card">
+                <h2>One day ticket</h2>
+                <img src="http://i.bnet.com/blogs/dummyimage.jpg" alt="">
+                <article class="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+                <div class="button button--cards">
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+            <div class="tickets__card">
+                <h2>Support ticket</h2>
+                <img src="http://i.bnet.com/blogs/dummyimage.jpg" alt="">
+                <article class="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+                <div class="button button--cards">
+                    <a href="#">Buy</a>
+                </div>
+            </div>
         </div>
     </section>
     <section class="sustainability">
@@ -42,15 +65,23 @@
         </artikel>
         <div class="sustainability__rainbow"></div>
     </section>
-    <section class="tickets">
-        <div class="">
+    <section class="partners wrapper">
+        <div class="wrapper">
+            <article class="partners__logo">
+                <img src="http://www.globalcitizen.net/images/partners/aau.png" alt="">
+                <img src="http://www.globalcitizen.net/images/partners/arla.png" alt="">
+                <img src="https://www.midttrafik.dk/its/gfx/logo.png" alt="">
+                <img src="http://www.globalcitizen.net/images/partners/agro.png" alt="">
+                <img src="http://www.globalcitizen.net/images/partners/aarhus.png" alt="">
+                <img src="http://www.globalcitizen.net/images/partners/go-green.png" alt="">
+                <img src="http://www.globalcitizen.net/images/partners/sustainia.png" alt="">
+                <img src="http://www.globalcitizen.net/images/partners/wwf.png" alt="">
+            </article>
+            <article class="partners__description">
+                <h1>Partnership</h1>
 
-        </div>
-        <div class="">
-
-        </div>
-        <div class="">
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
         </div>
     </section>
     <section class="festival">

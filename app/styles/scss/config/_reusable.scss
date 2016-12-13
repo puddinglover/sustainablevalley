@@ -1,10 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.page-name {
+    margin: 100px 0 50px 0;
+    width: 100%;
+    flex: 1 100%;
+
+    h1 {
+        font-family: 'Roboto', sans-serif !important;
+        text-decoration: none;
+        font-size: 22px;
+        color: $primary-blue;
+        text-transform: uppercase;
+    }
+}
+
 .button {
-    text-align: center;
+    background: $primary-orange;
     padding: 20px 60px;
+    border-radius: 2px;
+    display: inline-block;
+    cursor: pointer;
     a {
-        background: $primary-orange;
-        padding: 20px 60px;
-        border-radius: 2px;
         color: $primary-white;
     }
+}
+
+.button--cards {
+    float: right;
+    bottom: 0;
 }
