@@ -1,10 +1,15 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+// Reset CSS
+@import 'general/_reset';
+
 //misc settings
+@import 'config/_fonts';
 @import 'config/_variable';
 @import 'config/_reusable';
-@import 'config/_fonts';
 
 //global things
-@import 'general/_reset';
 @import 'layout/_nav';
 @import 'layout/_footer';
 

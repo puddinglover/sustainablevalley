@@ -1,5 +1,26 @@
 footer {
-    height: 200px;
+    height: auto;
     width: 100%;
-    background: $primary-green;
+    background: $primary-whiteGrey;
+
+    .footer__copy {
+        background: $primary-blueGrey;
+        width: 100%;
+        padding: 20px;
+        ul {
+            list-style: none;
+        }
+        p {
+            color: $primary-white;
+        }
+    }
+
+    .flex-item {
+        width: 400px;
+        height: 200px;
+
+        ul {
+            list-style: none;
+        }
+    }
 }

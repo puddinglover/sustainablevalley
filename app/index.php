@@ -65,7 +65,7 @@
         </artikel>
         <div class="sustainability__rainbow"></div>
     </section>
-    <section class="partners wrapper">
+    <section class="partners">
         <div class="wrapper">
             <article class="partners__logo">
                 <img src="http://www.globalcitizen.net/images/partners/aau.png" alt="">
