@@ -16,7 +16,7 @@
       <span class="material-design-hamburger__layer"></span>
     </button>
   </section>
-   
+
 
   <section class="menu menu--off">
                 <li class="one active"><a href="index.php">Home</a></li>
@@ -30,33 +30,5 @@
 <section class="wrapper">
 
 
-  
+
 </section>
-
-<script>
-(function() {
-
-  'use strict';
-
-  document.querySelector('.material-design-hamburger__icon').addEventListener(
-    'click',
-    function() {      
-      var child;
-      
-      document.body.classList.toggle('background--blur');
-      this.parentNode.nextElementSibling.classList.toggle('menu--on');
-
-      child = this.childNodes[1].classList;
-
-      if (child.contains('material-design-hamburger__icon--to-arrow')) {
-        child.remove('material-design-hamburger__icon--to-arrow');
-        child.add('material-design-hamburger__icon--from-arrow');
-      } else {
-        child.remove('material-design-hamburger__icon--from-arrow');
-        child.add('material-design-hamburger__icon--to-arrow');
-      }
-
-    });
-
-})();
-</script>
