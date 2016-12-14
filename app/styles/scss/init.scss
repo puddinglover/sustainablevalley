@@ -1,6 +1,11 @@
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+@font-face {
+    font-family: Mohave;
+    src: url(../fonts/Mohave.otf);
+}
+
 // Reset CSS
 @import 'general/_reset';
 

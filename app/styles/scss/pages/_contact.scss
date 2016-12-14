@@ -1,22 +1,24 @@
 .contact {
     height: 100%;
 
-    &__person{
-        padding: 5px;
+    &__person {
+        padding: 20px 20px 20px 0;
         width: 20%;
         height: auto;
-        margin-top: 10px;
+
 
         img {
             width: 100%;
+            border-radius: 100%;
         }
 
         &:nth-child(2n) {
             width: 80%;
         }
-    }
+        @media screen and (max-width: 640px) {
 
-    &__person-description {}
+        }
+    }
 
     &__map {
         background: $primary-white;

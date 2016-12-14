@@ -21,7 +21,7 @@
         <div class="wrapper">
             <div class="tickets__card">
                 <h2>Partoutticket</h2>
-                <img src="http://i.bnet.com/blogs/dummyimage.jpg" alt="">
+                <img class="ticket__picture" src="images/partoutticket.jpg" alt="">
                 <article class="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </article>
@@ -31,7 +31,7 @@
             </div>
             <div class="tickets__card">
                 <h2>One day ticket</h2>
-                <img src="http://i.bnet.com/blogs/dummyimage.jpg" alt="">
+                <img class="ticket__picture" src="images/1dayticket.jpg" alt="">
                 <article class="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </article>
@@ -41,7 +41,7 @@
             </div>
             <div class="tickets__card">
                 <h2>Support ticket</h2>
-                <img src="http://i.bnet.com/blogs/dummyimage.jpg" alt="">
+                <img class="ticket__picture" src="images/supportticket.jpg" alt="">
                 <article class="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </article>
@@ -54,7 +54,7 @@
     <section class="sustainability">
         <artikel class="sustainability__description">
             <div class="sustainability__description-center">
-                <h1>sustainability in Aarhus</h1>
+                <h1>sustainability</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>

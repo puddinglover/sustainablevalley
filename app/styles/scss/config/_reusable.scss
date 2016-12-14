@@ -18,6 +18,9 @@
     display: flex;
     flex-flow: row wrap;
     max-width: 1200px;
+    @media screen and (max-width: $device-s) {
+        padding: 0 10px 0 10px;
+    }
 }
 
 .page-name {
@@ -48,7 +51,7 @@
         color: $primary-white;
     }
     &:hover{
-    transition: .3s ease-out; 
+    transition: .3s ease-out;
     background: #FF8A65;
     }
 }

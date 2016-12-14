@@ -14,7 +14,7 @@
         <div class="wrapper">
             <div class="tickets__card">
                 <h2>Partoutticket</h2>
-                <img class="ticket__picture"src="images/partoutticket.jpg" alt="">
+                <img class="ticket__picture" src="images/partoutticket.jpg" alt="">
                 <article class="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </article>
@@ -24,7 +24,7 @@
             </div>
             <div class="tickets__card">
                 <h2>One day ticket</h2>
-                <img class="ticket__picture"src="images/1dayticket.jpg" alt="">
+                <img class="ticket__picture "src="images/1dayticket.jpg" alt="">
                 <article class="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </article>
@@ -34,7 +34,7 @@
             </div>
             <div class="tickets__card">
                 <h2>Support ticket</h2>
-                <img  class="ticket__picture"src="images/supportticket.jpg"  alt="">
+                <img  class="ticket__picture" src="images/supportticket.jpg"  alt="">
                 <article class="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </article>

@@ -5,8 +5,8 @@
           <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Festival</a></li>
-              <li><a href="#">Festival</a></li>
-              <li><a href="#">Festival</a></li>
+              <li><a href="#"> - Festival underside</a></li>
+              <li><a href="#"> - Festival underside</a></li>
               <li><a href="#">Idea vault</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Tickets</a></li>
@@ -14,9 +14,29 @@
       </li>
       <li class="flex-item">
           <h3>Contact information</h3>
+          <ul>
+              <li>E-mail: swl@globalcitizen.net</li>
+              <li>Phone: +45 40276064</li>
+              <li>VAT: 34677395</li>
+              <br>
+              <li>Inge Lehmanns Gade 10</li>
+              <li>8000 Aarhus C</li>
+              <li>Denmark</li>
+          </ul>
       </li>
       <li class="flex-item">
           <h3>Social media</h3>
+          <ul class="social-icons">
+              <li>
+                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa fa-snapchat-square fa-3x"></i></a>
+              </li>
+          </ul>
       </li>
     </ul>
     <div class="footer__copy">
