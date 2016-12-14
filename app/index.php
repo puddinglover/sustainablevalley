@@ -76,6 +76,7 @@
                 <img src="http://www.globalcitizen.net/images/partners/go-green.png" alt="">
                 <img src="http://www.globalcitizen.net/images/partners/sustainia.png" alt="">
                 <img src="http://www.globalcitizen.net/images/partners/wwf.png" alt="">
+                <img src="http://www.globalcitizen.net/images/partners/ki.png" alt="">
             </article>
             <article class="partners__description">
                 <h1>Partnership</h1>
