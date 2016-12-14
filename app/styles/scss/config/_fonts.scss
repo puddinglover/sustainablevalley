@@ -1,21 +1,49 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif !important;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 42px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.17em;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.12em;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 0.83em;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 0.75em;
 }
 
 p {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
 a {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }

@@ -1,7 +1,31 @@
 <footer>
-
-Footer bitch
-
+    <ul class="flex-container wrapper">
+      <li class="flex-item">
+          <h3>Sitemap</h3>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Festival</a></li>
+              <li><a href="#">Festival</a></li>
+              <li><a href="#">Festival</a></li>
+              <li><a href="#">Idea vault</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Tickets</a></li>
+          </ul>
+      </li>
+      <li class="flex-item">
+          <h3>Contact information</h3>
+      </li>
+      <li class="flex-item">
+          <h3>Social media</h3>
+      </li>
+    </ul>
+    <div class="footer__copy">
+        <ul class="wrapper">
+            <li>
+                <p>Copyright © 2016, Global Citizen A/S</p>
+            </li>
+        </ul>
+    </div>
 </footer>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
