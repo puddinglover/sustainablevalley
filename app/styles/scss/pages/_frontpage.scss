@@ -1,6 +1,6 @@
 .landing {
     background: linear-gradient(to bottom,rgba(160,216,239,1) 0%, rgba(221,241,249,1) 35%,rgba(254,255,255,1) 100%);
-    height: 1000px;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -16,6 +16,9 @@
             position: absolute;
             bottom: 500px;
             animation: moveclouds 15s linear infinite;
+            @media screen and (max-width: $device-s) {
+                bottom: 400px;
+            }
         }
 
         img:nth-child(2) {
@@ -24,6 +27,9 @@
             bottom: 400px;
             transform: scale(0.6);
             animation: moveclouds 25s linear infinite;
+            @media screen and (max-width: $device-s) {
+                bottom: 300px;
+            }
         }
 
         img:nth-child(3) {
@@ -32,6 +38,9 @@
             bottom: 360px;
             transform: scale(0.8);
             animation: moveclouds 20s linear infinite;
+            @media screen and (max-width: $device-s) {
+                bottom: 260px;
+            }
         }
 
         img:nth-child(4) {
@@ -40,6 +49,9 @@
             bottom: 350px;
             transform: scale(0.75);
             animation: moveclouds 18s linear infinite;
+            @media screen and (max-width: $device-s) {
+                bottom: 250px;
+            }
         }
 
         img:nth-child(5) {
@@ -48,6 +60,9 @@
             bottom: 250px;
             transform: scale(0.8);
             animation: moveclouds 20s linear infinite;
+            @media screen and (max-width: $device-s) {
+                bottom: 150px;
+            }
         }
         @media screen and (max-width: $device-s) {}
     }
@@ -66,7 +81,7 @@
         background: url('../images/logo2.svg') no-repeat;
         background-size: contain;
         width: 40%;
-        height: 40%;
+        height: 53%;
         margin: 0 auto;
 
         &-logo {
@@ -81,6 +96,7 @@
         }
         @media screen and (max-width: $device-s) {
             width: 85%;
+            height: 31%;
         }
     }
 }
@@ -227,6 +243,9 @@
             width: 10%;
             left: 0;
             margin: 200px 0;
+            @media screen and (max-width: $device-s) {
+                display: none;
+            }
         }
 
         .bird-logo--bottom {
@@ -256,7 +275,8 @@
         }
         @media screen and (max-width: $device-s) {
             width: 100%;
-            height: 100%;
+            height: auto;
+            margin: 200px 0 0 0;
         }
     }
 
