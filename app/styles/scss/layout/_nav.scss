@@ -25,6 +25,10 @@
             @media screen and (max-width: $device-m) {
                 display: none;
             }
+            @media screen and (max-width: $device-l) {
+                left: -20px;
+                width: 6%;
+            }
         }
     }
 
@@ -89,6 +93,9 @@
     }
     @media screen and (max-width: $device-m) {
         display: none;
+    }
+    @media screen and (max-width: $device-l) {
+        padding: 0 0 0 50px;
     }
 }
 
