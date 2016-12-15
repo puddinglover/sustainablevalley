@@ -4,15 +4,14 @@
         <div class="container">
             <ul>
                 <li class="one active"><a href="index.php">Home</a></li>
-                <div id="dropdown" class="ddmenu">
-                <li class="two"><a href="#">Festival</a></li>
-                <ul>
-                    <li><a href="#">Nyheder</a></li>
-                    <li><a href="#">Partnere</a></li>
-                    <li><a href="#">Praktisk</a></li>
-                    <li><a href="#">sfdfdsf</a></li>
-                </ul>
-                </div>
+                <li id="dropdown" class="two"><a href="#">Festival</a>
+                    <ul>
+                        <li><a href="#">Nyheder</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Program</a></li>
+                    </ul>
+                </li>
                 <li class="three"><a href="ideavault.php">Idea vault</a></li>
                 <li class="four"><a href="contact.php">Contact</a></li>
                 <li class="five"><a href="tickets.php">Tickets</a></li>

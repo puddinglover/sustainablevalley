@@ -29,38 +29,38 @@ $(document).ready(function() {
 
     (function() {
 
-      'use strict';
+        'use strict';
 
-      document.querySelector('.material-design-hamburger__icon').addEventListener(
-        'click',
-        function() {
-          var child;
-          document.querySelector('.background-overlay').classList.toggle('background-overlay--active');
-          this.parentNode.nextElementSibling.classList.toggle('menu--on');
+        document.querySelector('.material-design-hamburger__icon').addEventListener(
+            'click',
+            function() {
+                var child;
+                document.querySelector('.background-overlay').classList.toggle('background-overlay--active');
+                this.parentNode.nextElementSibling.classList.toggle('menu--on');
 
-          child = this.childNodes[1].classList;
+                child = this.childNodes[1].classList;
 
-          if (child.contains('material-design-hamburger__icon--to-arrow')) {
-            child.remove('material-design-hamburger__icon--to-arrow');
-            child.add('material-design-hamburger__icon--from-arrow');
-          } else {
-            child.remove('material-design-hamburger__icon--from-arrow');
-            child.add('material-design-hamburger__icon--to-arrow');
-          }
+                if (child.contains('material-design-hamburger__icon--to-arrow')) {
+                    child.remove('material-design-hamburger__icon--to-arrow');
+                    child.add('material-design-hamburger__icon--from-arrow');
+                } else {
+                    child.remove('material-design-hamburger__icon--from-arrow');
+                    child.add('material-design-hamburger__icon--to-arrow');
+                }
 
-        });
+            });
 
     })();
-    $("#dropdown").on("click", function(e){
-  e.preventDefault();
-  
-  if($(this).hasClass("open")) {
-    $(this).removeClass("open");
-    $(this).children("ul").slideUp("fast");
-  } else {
-    $(this).addClass("open");
-    $(this).children("ul").slideDown("fast");
-  }
-});
+    $("#dropdown").on("click", function(e) {
+        e.preventDefault();
+
+        if ($(this).hasClass("open")) {
+            $(this).removeClass("open");
+            $(this).children("ul").slideUp("fast");
+        } else {
+            $(this).addClass("open");
+            $(this).children("ul").slideDown("fast");
+        }
+    });
 
 })

@@ -5,9 +5,10 @@
           <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Festival</a></li>
-              <li><a href="#"> - Festival underside</a></li>
-              <li><a href="#"> - Festival underside</a></li>
-              <li><a href="#">Idea vault</a></li>
+              <li><a href="#"> - News</a></li>
+              <li><a href="#"> - Partners</a></li>
+              <li><a href="#"> - Information</a></li>
+              <li><a href="#"> - Program</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Tickets</a></li>
           </ul>
