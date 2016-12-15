@@ -1,3 +1,4 @@
+// Exclusive to contact page
 .contact {
     height: 100%;
 
@@ -11,10 +12,11 @@
             width: 100%;
             border-radius: 100%;
         }
-
+        // takes the secound child of the class person.
         &:nth-child(2n) {
             width: 80%;
         }
+        // changes padding on mediuem devices, so there is space around it.
         @media screen and (max-width: $device-m) {
             padding: 20px;
         }

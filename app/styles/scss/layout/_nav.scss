@@ -1,20 +1,24 @@
+
+// Navigation menu  wrapper
 .nav-wrapper {
     display: flex;
     background: $primary-white;
     box-shadow: 0 7px 5px 0 rgba(0,0,0,0.1);
     height: 80px;
     width: 100%;
+    // Position fixed stick the object to the screen
     position: fixed;
     padding: 1px;
+    // the z-index, of the navigation menu, so it overlaps the rest of the content of the page
     z-index: 1;
-
+    // the core or starting position of the bird logo
     .bird-logo {
         position: relative;
         transition: 1s ease;
         top: -100px;
         left: 40px;
         width: 4%;
-
+        // Used for animating the bird to the navigation menu
         &--transition {
             position: relative;
             transition: 2s ease;
@@ -31,7 +35,7 @@
             }
         }
     }
-
+    // navigation menu styling
     nav {
         display: flex;
         align-items: center;
@@ -42,7 +46,7 @@
         .container {
             width: 50%;
         }
-
+        // styles for the menu titles on the navigation menu
         ul {
             li {
                 display: inline;
@@ -51,6 +55,7 @@
                 a {
                     display: inline-block;
                     width: 19%;
+                    // Rem is relative to the base font size of the html document
                     padding: 1.7rem 0;
                     margin: 0;
                     text-decoration: none;
@@ -63,7 +68,7 @@
                 }
             }
         }
-
+        // Changes the underline bar depending on which element is active
         .two.active ~ .underline {
             margin-left: 19.6%;
         }
@@ -98,7 +103,7 @@
         padding: 0 0 0 50px;
     }
 }
-
+// Background overlay for making the background darker, when using the hamburger menu
 .background-overlay {
     background: rgba(0,0,0,0.4);
     height: 100vh;
@@ -157,7 +162,7 @@
                 }
             }
         }
-
+        // Text decoration removes standard decoration of a tags
         a {
             text-decoration: none;
             color: $primary-blue;
@@ -186,7 +191,7 @@
     transition: all 300ms;
     display: block;
 }
-
+// the hamburger icon
 .material-design-hamburger {
     button {
         display: block;
@@ -207,7 +212,7 @@
         display: none;
     }
 }
-
+// Cursor pointer changes the cursor to a pointer
 .material-design-hamburger__icon {
     padding: 3rem 1rem;
     cursor: pointer;
@@ -222,7 +227,9 @@
     position: absolute;
     animation-duration: 300ms;
     animation-timing-function: ease-in-out;
-
+    // After inserts something after the content 
+    // before inserts something before the content 
+    // Inherit, means it inhearits from it's parent 
     &:after,
     &:before {
         display: block;
@@ -245,7 +252,9 @@
         top: 200%;
     }
 }
-
+// Animation for the burger icon when clicked, and changes into a arrow
+// The animation-name CSS property specifies a list of animations that should be applied to the selected element
+// he animation-fill-mode property specifies a style for the element when the animation is not playing
 .material-design-hamburger__icon--to-arrow {
     animation-name: material-design-hamburger__icon--slide;
     animation-fill-mode: forwards;
@@ -272,6 +281,7 @@
         animation-name: material-design-hamburger__icon--slide-after-from;
     }
 }
+// Keyframes changes the object from 0% to 100% the frames inbetween depending on the time esimated under transistion
 @keyframes material-design-hamburger__icon--slide {
     0% {}
 
@@ -315,6 +325,7 @@
 }
 @keyframes material-design-hamburger__icon--slide-after-from {
     0% {
+        // roates changes the rotation of the object
         transform: rotate(45deg);
         margin: 3% 37%;
         width: 75%;
@@ -322,6 +333,8 @@
 
     100% {}
 }
+
+// Drop down menu
 
 #dropdown.open {
     color: #fff;
