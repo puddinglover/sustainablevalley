@@ -1,6 +1,9 @@
 // Add your JavaScript here!
 $(document).ready(function() {
 
+// Store the file name of current page URL in a variable
+var url = document.location.pathname.substr(document.location.pathname.lastIndexOf('/') + 1);
+
     // This function makes the line under menu items follow each item when clicked
     $("header li a").click(function() {
         $(this).parent().siblings().removeClass('active');
@@ -12,6 +15,14 @@ $(document).ready(function() {
         $(this).parent().addClass('active');
     });
 
+if ($('a[href*="' + url + '"]').parent().hasClass('active') === false) {
+  $('.active a').parent().siblings().removeClass('active');
+  $('a[href*="' + url + '"]').parent().addClass('active');
+    }
+if (url !== 'index.php') {
+  $('.bird-logo').addClass('bird-logo--transition');
+}
+else {
     // Based on scroll hight, this script will fire a function that calls the classes that animat the bird.
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
@@ -22,7 +33,7 @@ $(document).ready(function() {
             $('.bird-logo').removeClass("bird-logo--transition");
         }
     });
-
+}
     $(window).scroll(function() {
         if ($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
 
