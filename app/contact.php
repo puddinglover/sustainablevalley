@@ -9,8 +9,8 @@
             <p>This is a short description of what the page contains and what the user can read/See here!</p>
         </div>
     </div>
-
-    <div class="bgPicture bgPicture--contact"> </div>
+    
+    <div class="bgPicture bgPicture--contact"><div class="bg__overlay">    </div> </div>
 
     <div class="wrapper">
 

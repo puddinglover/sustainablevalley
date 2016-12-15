@@ -8,7 +8,7 @@
         <p>This is a short description of what the page contains and what the user can read/See here!</p>
     </div>
 </section>
-<div class="bgPicture"> </div>
+<div class="bgPicture"><div class="bg-overlay--ticket"></div> </div>
  <section class="tickets" id="main-ticket">
 
         <div class="wrapper">

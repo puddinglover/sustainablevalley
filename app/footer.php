@@ -65,6 +65,8 @@
     ga('send', 'pageview');
 </script>
 
+
 <script src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
 </body>
 </html>
