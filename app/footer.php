@@ -26,7 +26,7 @@
       </li>
       <li class="flex-item">
           <h3>Social media</h3>
-          <ul class="social-icons">
+          <ul class="social-icons social-icons--footer">
               <li>
                   <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
               </li>

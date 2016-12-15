@@ -1,12 +1,16 @@
 // Add your JavaScript here!
 $(document).ready(function() {
 
-    // This function makes the lineunder follow each nav elemtent when clicked
-    $("li a").click(function() {
+    // This function makes the line under menu items follow each item when clicked
+    $("header li a").click(function() {
         $(this).parent().siblings().removeClass('active');
         $(this).parent().addClass('active');
     });
-
+    // Same function, but for mobile nav
+    $(".menu div a").click(function() {
+        $(this).parent().siblings().removeClass('active');
+        $(this).parent().addClass('active');
+    });
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
             $('.landing__bird-logo').addClass("landing__bird-logo--transistion");
@@ -31,7 +35,7 @@ $(document).ready(function() {
         'click',
         function() {
           var child;
-
+          document.querySelector('.background-overlay').classList.toggle('background-overlay--active');
           this.parentNode.nextElementSibling.classList.toggle('menu--on');
 
           child = this.childNodes[1].classList;
