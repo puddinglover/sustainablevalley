@@ -69,6 +69,10 @@
 .social-icons {
     li a i {
         color: $primary-blue;
+        &:hover{
+          color: #03A9F4;
+          transition-duration: .5s ease;   
+        }
     }
     &--menu {
         // removes the list styling

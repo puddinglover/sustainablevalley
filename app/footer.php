@@ -3,14 +3,14 @@
       <li class="flex-item">
           <h3>Sitemap</h3>
           <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Festival</a></li>
-              <li><a href="#"> - News</a></li>
-              <li><a href="#"> - Partners</a></li>
-              <li><a href="#"> - Information</a></li>
-              <li><a href="#"> - Program</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Tickets</a></li>
+              <li><a href="/index.php">Home</a></li>
+              <li><a href="/index.php">Festival</a></li>
+              <li><a href="/index.php"> - News</a></li>
+              <li><a href="/index.php"> - Partners</a></li>
+              <li><a href="/index.php"> - Information</a></li>
+              <li><a href="/index.php"> - Program</a></li>
+              <li><a href="/contact.php">Contact</a></li>
+              <li><a href="/tickets.php">Tickets</a></li>
           </ul>
       </li>
       <li class="flex-item">
