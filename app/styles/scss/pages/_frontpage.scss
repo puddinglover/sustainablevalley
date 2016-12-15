@@ -58,7 +58,6 @@
                 bottom: 150px;
             }
         }
-        @media screen and (max-width: $device-s) {}
     }
     @keyframes moveclouds {
         0% {
@@ -92,6 +91,10 @@
             width: 85%;
             height: 41%;
         }
+        @media screen and (max-width: $device-l) {
+            width: 60%;
+            height: 51%;
+        }
     }
 }
 .tickets {
@@ -120,7 +123,7 @@
             @media screen and (max-width: $device-s) {
                 margin: 20px 0 0;
             }
-            @media screen and (max-width: $device-m) {
+            @media screen and (max-width: $device-l) {
                 margin: 20px;
             }
         }
@@ -130,6 +133,9 @@
         padding: 0 0 20px;
     }
     @media screen and (max-width: $device-m) {
+        height: auto;
+    }
+    @media screen and (max-width: $device-l) {
         height: auto;
     }
 }
@@ -153,6 +159,11 @@
             h1 {
                 color: $primary-blue;
                 text-transform: uppercase;
+            }
+            @media screen and (max-width: $device-l) {
+                max-width: 95%;
+                height: 100%;
+                padding: 150px 0 0 0;
             }
             @media screen and (max-width: $device-s) {
                 max-width: 95%;
@@ -222,6 +233,12 @@
                 padding: 20px 0;
             }
         }
+        @media screen and (max-width: $device-l) {
+            padding: 20px 0 0 20px;
+            img {
+                width: 30%;
+            }
+        }
     }
     &__description {
         width: 50%;
@@ -240,6 +257,9 @@
             width: 100%;
             padding: 20px;
         }
+        @media screen and (max-width: $device-l) {
+            padding: 20px 20px 0 0;
+        }
     }
     @media screen and (max-width: $device-s) {
         display: block;
@@ -248,6 +268,9 @@
     @media screen and (max-width: $device-m) {
         display: block;
         height: auto;
+    }
+    @media screen and (max-width: $device-l) {
+        height: 400px;
     }
 }
 .festival {
@@ -278,6 +301,7 @@
             width: 4%;
             margin: 135px 0;
             left: 30px;
+            display: none;
             @media screen and (max-width: $device-m) {
                 display: none;
             }
@@ -291,6 +315,10 @@
             }
             @media screen and (max-width: $device-s) {
                 max-width: 95%;
+            }
+            @media screen and (max-width: $device-l) {
+                max-width: 85%;
+                padding: 100px 0 0 100px;
             }
         }
         @media screen and (max-width: $device-s) {

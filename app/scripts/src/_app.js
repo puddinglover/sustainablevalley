@@ -11,6 +11,8 @@ $(document).ready(function() {
         $(this).parent().siblings().removeClass('active');
         $(this).parent().addClass('active');
     });
+
+    // Based on scroll hight, this script will fire a function that calls the classes that animat the bird.
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
             $('.landing__bird-logo').addClass("landing__bird-logo--transistion");
