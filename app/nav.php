@@ -3,7 +3,7 @@
     <nav>
         <div class="container">
             <ul>
-                <li class="one active"><a href="index.php">Home</a></li>
+                <li class="one"><a href="index.php">Home</a></li>
                 <li id="dropdown" class="two"><a href="#">Festival</a>
                     <ul>
                         <li><a href="#">Nyheder</a></li>
@@ -40,7 +40,7 @@
    </ul>
  </div>
  <div class="menu__container">
-   <div class="one active"><a href="index.php">Home</a></div>
+   <div class="one"><a href="index.php">Home</a></div>
    <div class="two"><a href="#">Festival</a></div>
    <div class="three"><a href="ideavault.php">Idea vault</a></div>
    <div class="four"><a href="contact.php">Contact</a></div>
