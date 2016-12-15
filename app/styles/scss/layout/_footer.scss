@@ -9,9 +9,13 @@ footer {
         margin: 20px 0 0;
         ul {
             list-style: none;
+            li {
+                margin: 0 auto;
+            }
         }
         p {
             color: $primary-white;
+            font-size: 0.8em;
         }
         @media screen and (max-width: $device-m) {
             margin: 0;
