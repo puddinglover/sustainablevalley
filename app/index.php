@@ -16,8 +16,11 @@
         <!-- <div class="button">
             <a href="#">Explore</a>
         </div> -->
+        <aside class="down">
+          <a href="#ticket-section"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </aside>
     </section>
-    <section class="tickets">
+    <section id="ticket-section" class="tickets">
         <div class="wrapper">
             <div class="tickets__card">
                 <h2>Partoutticket</h2>

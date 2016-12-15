@@ -3,7 +3,8 @@ $(document).ready(function() {
 
 // Store the file name of current page URL in a variable
 var url = document.location.pathname.substr(document.location.pathname.lastIndexOf('/') + 1);
-
+// Store the height of the header in a variable
+var headerHeight = $('header').height();
     // This function makes the line under menu items follow each item when clicked
     $("header li a").click(function() {
         $(this).parent().siblings().removeClass('active');
@@ -14,11 +15,12 @@ var url = document.location.pathname.substr(document.location.pathname.lastIndex
         $(this).parent().siblings().removeClass('active');
         $(this).parent().addClass('active');
     });
-
+    // Checks current page url and makes the corresponding menu item active
 if ($('a[href*="' + url + '"]').parent().hasClass('active') === false) {
   $('.active a').parent().siblings().removeClass('active');
   $('a[href*="' + url + '"]').parent().addClass('active');
     }
+    // Checks current page and if it is not the front page then it prevents the bird animation from firing.
 if (url !== 'index.php') {
   $('.bird-logo').addClass('bird-logo--transition');
 }
@@ -34,6 +36,21 @@ else {
         }
     });
 }
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        var scrollValue = ((target.offset().top)-headerHeight);
+        $('html, body').animate({
+          scrollTop: scrollValue
+        }, 1200);
+        return false;
+      }
+    }
+  });
+});
     $(window).scroll(function() {
         if ($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
 
