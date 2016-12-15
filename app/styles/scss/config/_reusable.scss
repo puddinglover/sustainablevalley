@@ -1,3 +1,5 @@
+
+// styles for reusable classes that can be used throughout the page
 * {
     box-sizing: border-box;
 }
@@ -5,8 +7,11 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    // The flex-direction property specifies the direction of the flexible items.
     display: flex;
+    // The flex-wrap property specifies whether the flexible items should wrap or not.
     flex-flow: row wrap;
+    // items are evenly distributed in the line
     justify-content: space-around;
     @media screen and (max-width: $device-m) {
         justify-content: flex-start;
@@ -35,6 +40,8 @@
         text-transform: uppercase;
     }
 }
+
+// styling for CTA buttons
 .button {
     background: $primary-orange;
     padding: 10px 30px;
@@ -57,11 +64,14 @@
     float: right;
     bottom: 0;
 }
+
+// styling for social media icons on footer
 .social-icons {
     li a i {
         color: $primary-blue;
     }
     &--menu {
+        // removes the list styling
         list-style: none;
         width: 100%;
         text-align: center;

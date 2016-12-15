@@ -260,10 +260,11 @@
     animation-fill-mode: forwards;
 
     &:before {
+        // forwards means that after the animation ends the animation will apply the property values
         animation-name: material-design-hamburger__icon--slide-before;
         animation-fill-mode: forwards;
     }
-
+    
     &:after {
         animation-name: material-design-hamburger__icon--slide-after;
         animation-fill-mode: forwards;
@@ -336,8 +337,10 @@
 
 // Drop down menu
 
+// Drop down when it have the class open
 #dropdown.open {
     color: #fff;
+    //  add color orange to the left border
     border-left-color: $primary-orange;
 }
 
@@ -354,7 +357,9 @@
 }
 
 #dropdown ul li {
+    // Displays an element as an inline element
     display: inline;
+    // make the text align to the left
     text-align: left;
 
     a {
@@ -367,6 +372,7 @@
 
         &:hover {
             color: $primary-orange;
+            // makes the color change on hover by 300ms.
             transition: 0.3s ease;
         }
     }
@@ -375,11 +381,13 @@
 #dropdown ul li a {
     width: 100%;
     text-decoration: none;
+    // makes the text be block elements
     display: block;
     color: #447dd3;
+    // changes space between them
     padding: 7px 15px;
 }
-
+// adds color and background color when hovering above the text
 #dropdown ul li a:hover {
     color: #6fa0e9;
     background: #e7f0f7;
