@@ -1,4 +1,7 @@
 //Ticket Page
+.page-name {
+    padding-top: 20px;
+}
 //Bacground picture paralex styling
 .bgPicture {
     // Used for making the block responsive (Flexbox)
@@ -24,26 +27,23 @@
         height: 30vh;
     }
 }
-
 .ticket__picture {
     height: 200px;
     width: 100%;
 }
-
 // changes shadow of ticket section on the ticket page
 #main-ticket {
     margin-top: 20px;
     box-shadow: inset 0 -0 0 0 transparent;
 }
-
 // Overlay for both ticket and contact site, which makes it more dark.
-.bg__overlay{
+.bg__overlay {
     background-color: rgba( $primary-black, .4 );
     width: 100%;
     height: 100%;
     position: relative;
 }
-.bg-overlay--ticket{
+.bg-overlay--ticket {
     background-color: rgba( $primary-black, .4 );
     width: 100%;
     height: 100%;

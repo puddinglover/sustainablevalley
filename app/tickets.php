@@ -5,7 +5,7 @@
 <section class="ticket wrapper">
     <div class="page-name">
         <h1>Tickets</h1>
-        <p>This is a short description of what the page contains and what the user can read/See here!</p>
+        <p>Get ready for 5 days of innovation and sustainable thinking.</p>
     </div>
 </section>
 <div class="bgPicture"><div class="bg-overlay--ticket"></div> </div>
@@ -13,10 +13,10 @@
 
         <div class="wrapper">
             <div class="tickets__card">
-                <h2>Partoutticket</h2>
+                <h2>Partout ticket</h2>
                 <img class="ticket__picture" src="images/partoutticket.jpg" alt="">
                 <article class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>5 days of innovation and sustainable thinking. Get access to all events and camping in the University Park.</p>
                 </article>
                 <div class="button button--cards">
                     <a href="#">Buy</a>
@@ -26,7 +26,7 @@
                 <h2>One day ticket</h2>
                 <img class="ticket__picture "src="images/1dayticket.jpg" alt="">
                 <article class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Looking forward to a specific event? One day tickets are available for all 5 days. Camping is not included.</p>
                 </article>
                 <div class="button button--cards">
                     <a href="#">Buy</a>
@@ -36,7 +36,7 @@
                 <h2>Support ticket</h2>
                 <img  class="ticket__picture" src="images/supportticket.jpg"  alt="">
                 <article class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Can't make it to the festival? Buy a support ticket! This is your contribution to a sustainable future.</p>
                 </article>
                 <div class="button button--cards">
                     <a href="#">Buy</a>

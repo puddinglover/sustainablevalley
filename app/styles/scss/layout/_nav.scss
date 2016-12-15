@@ -1,4 +1,3 @@
-
 // Navigation menu  wrapper
 .nav-wrapper {
     display: flex;
@@ -42,7 +41,6 @@
         width: 1200px;
         height: 100%;
         margin: 0 auto;
-
         .container {
             width: 50%;
         }
@@ -51,7 +49,6 @@
             li {
                 display: inline;
                 text-align: center;
-
                 a {
                     display: inline-block;
                     width: 19%;
@@ -60,7 +57,6 @@
                     margin: 0;
                     text-decoration: none;
                     color: $primary-blue;
-
                     &:hover {
                         color: $primary-orange;
                         transition: 0.3s ease;
@@ -72,19 +68,15 @@
         .two.active ~ .underline {
             margin-left: 19.6%;
         }
-
         .three.active ~ .underline {
             margin-left: 39.2%;
         }
-
         .four.active ~ .underline {
             margin-left: 58.9%;
         }
-
         .five.active ~ .underline {
             margin-left: 78.5%;
         }
-
         .underline {
             height: 3px;
             width: 19%;
@@ -111,40 +103,32 @@
     position: fixed;
     display: none;
     z-index: 2;
-
     &--active {
         display: block;
     }
 }
-
 .menu {
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     z-index: 99;
-
     .menu__social {
         width: 60%;
         margin-top: 35px;
     }
-
     .menu__container {
         padding-top: 20px;
-
         div {
             margin: 1em;
             padding-bottom: 1em;
             border-bottom: 1px solid #ccc;
-
             &:last-child {
                 border: 0;
             }
-
             &.active {
                 a {
                     color: $primary-orange;
                 }
             }
-
             &.button {
                 padding: 10px 30px;
                 width: 90%;
@@ -155,7 +139,6 @@
                 @media screen and (max-width: $device-s) {
                     width: 90%;
                 }
-
                 a {
                     font-size: 1em;
                     color: $primary-white;
@@ -172,7 +155,6 @@
         display: none;
     }
 }
-
 .menu--off {
     position: fixed;
     left: 101%;
@@ -184,7 +166,6 @@
     height: 100vh;
     transition: all 300ms;
 }
-
 .menu--on {
     left: 30%;
     box-shadow: -8px -8px 20px 0 rgba(0, 0, 0, 0.2);
@@ -217,7 +198,6 @@
     padding: 3rem 1rem;
     cursor: pointer;
 }
-
 .material-design-hamburger__layer {
     display: block;
     left: 80%;
@@ -227,9 +207,9 @@
     position: absolute;
     animation-duration: 300ms;
     animation-timing-function: ease-in-out;
-    // After inserts something after the content 
-    // before inserts something before the content 
-    // Inherit, means it inhearits from it's parent 
+    // After inserts something after the content
+    // before inserts something before the content
+    // Inherit, means it inhearits from it's parent
     &:after,
     &:before {
         display: block;
@@ -243,11 +223,9 @@
         animation-timing-function: ease-in-out;
         z-index: inherit;
     }
-
     &:before {
         bottom: 200%;
     }
-
     &:after {
         top: 200%;
     }
@@ -258,26 +236,21 @@
 .material-design-hamburger__icon--to-arrow {
     animation-name: material-design-hamburger__icon--slide;
     animation-fill-mode: forwards;
-
     &:before {
         // forwards means that after the animation ends the animation will apply the property values
         animation-name: material-design-hamburger__icon--slide-before;
         animation-fill-mode: forwards;
     }
-    
     &:after {
         animation-name: material-design-hamburger__icon--slide-after;
         animation-fill-mode: forwards;
     }
 }
-
 .material-design-hamburger__icon--from-arrow {
     animation-name: material-design-hamburger__icon--slide-from;
-
     &:before {
         animation-name: material-design-hamburger__icon--slide-before-from;
     }
-
     &:after {
         animation-name: material-design-hamburger__icon--slide-after-from;
     }
@@ -285,14 +258,12 @@
 // Keyframes changes the object from 0% to 100% the frames inbetween depending on the time esimated under transistion
 @keyframes material-design-hamburger__icon--slide {
     0% {}
-
     100% {
         transform: rotate(180deg);
     }
 }
 @keyframes material-design-hamburger__icon--slide-before {
     0% {}
-
     100% {
         transform: rotate(-45deg);
         margin: 3% -19%;
@@ -301,7 +272,6 @@
 }
 @keyframes material-design-hamburger__icon--slide-after {
     0% {}
-
     100% {
         transform: rotate(45deg);
         margin: 3% -19%;
@@ -312,7 +282,6 @@
     0% {
         transform: rotate(-180deg);
     }
-
     100% {}
 }
 @keyframes material-design-hamburger__icon--slide-before-from {
@@ -321,7 +290,6 @@
         margin: 3% 37%;
         width: 75%;
     }
-
     100% {}
 }
 @keyframes material-design-hamburger__icon--slide-after-from {
@@ -331,19 +299,15 @@
         margin: 3% 37%;
         width: 75%;
     }
-
     100% {}
 }
-
 // Drop down menu
-
 // Drop down when it have the class open
 #dropdown.open {
     color: #fff;
     //  add color orange to the left border
     border-left-color: $primary-orange;
 }
-
 #dropdown ul {
     position: absolute;
     top: 100%;
@@ -355,13 +319,11 @@
     background: #fff;
     box-shadow: 0 7px 5px 0 rgba(0,0,0,0.1);
 }
-
 #dropdown ul li {
     // Displays an element as an inline element
     display: inline;
     // make the text align to the left
     text-align: left;
-
     a {
         display: inline-block;
         width: 19%;
@@ -369,7 +331,6 @@
         margin: 0;
         text-decoration: none;
         color: $primary-blue;
-
         &:hover {
             color: $primary-orange;
             // makes the color change on hover by 300ms.
@@ -377,7 +338,6 @@
         }
     }
 }
-
 #dropdown ul li a {
     width: 100%;
     text-decoration: none;

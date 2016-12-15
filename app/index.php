@@ -55,13 +55,13 @@
         </div>
     </section>
     <section class="sustainability">
-        <artikel class="sustainability__description">
+        <article class="sustainability__description">
             <div class="sustainability__description-center">
                 <h1>sustainability</h1>
                 <p>
                     Sustainability is all about caring.
                     Caring for the world we live in and the people that inhabit it.
-                    We're all in this together so why not help eachother, right?
+                    We're all in this together so why not help each other, right?
                     This festival will gather the innovative minds of 1000 people from all over the globe to create new, sustainable solutions for our planet.<br><br>
                     Don't miss it.
                 </p>
@@ -69,7 +69,7 @@
                     <a href="#">Explore</a>
                 </div>
             </div>
-        </artikel>
+        </article>
         <div class="sustainability__rainbow"></div>
     </section>
     <section class="partners">

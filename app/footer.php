@@ -16,7 +16,7 @@
       <li class="flex-item">
           <h3>Contact</h3>
           <ul>
-              <li>E-mail: <a href="mailto:swl@globalcitizen.net">swl@globalcitizen.net</a></li>
+              <li>E-mail: info@ssv.com</li>
               <li>Phone: +45 40276064</li>
               <li>VAT: 34677395</li>
               <br>

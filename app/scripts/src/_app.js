@@ -21,7 +21,7 @@ if ($('a[href*="' + url + '"]').parent().hasClass('active') === false) {
   $('a[href*="' + url + '"]').parent().addClass('active');
     }
     // Checks current page and if it is not the front page then it prevents the bird animation from firing.
-if (url !== 'index.php') {
+if ((url !== 'index.php') && (url !== '')) {
   $('.bird-logo').addClass('bird-logo--transition');
 }
 else {
@@ -42,7 +42,7 @@ $(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        var scrollValue = ((target.offset().top)-headerHeight);
+        var scrollValue = ((target.offset().top)-(headerHeight * 1.2));
         $('html, body').animate({
           scrollTop: scrollValue
         }, 1200);

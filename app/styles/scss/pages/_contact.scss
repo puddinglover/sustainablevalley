@@ -1,13 +1,17 @@
 // Exclusive to contact page
 .contact {
     height: 100%;
-
+    .page-name {
+        padding-top: 20px;
+    }
     &__person {
         padding: 20px 20px 20px 0;
         width: 20%;
         height: auto;
-
-
+        h4 {
+            font-style: italic;
+            padding-bottom: 20px;
+        }
         img {
             width: 100%;
             border-radius: 100%;
@@ -17,11 +21,10 @@
             width: 80%;
         }
         // changes padding on mediuem devices, so there is space around it.
-        @media screen and (max-width: $device-m) {
+        @media screen and (min-width: 421px) and (max-width: $device-m) {
             padding: 20px;
         }
     }
-
     &__map {
         background: $primary-white;
         width: 100%;
@@ -31,7 +34,7 @@
 // Google maps
 #map {
     margin-bottom: 5px;
-    display:flex;
+    display: flex;
     height: 300px;
     width: 100%;
- }
+}
