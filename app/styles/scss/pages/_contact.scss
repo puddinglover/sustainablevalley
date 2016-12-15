@@ -15,8 +15,8 @@
         &:nth-child(2n) {
             width: 80%;
         }
-        @media screen and (max-width: 640px) {
-
+        @media screen and (max-width: $device-m) {
+            padding: 20px;
         }
     }
 
