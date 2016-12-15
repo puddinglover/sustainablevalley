@@ -25,6 +25,7 @@ footer {
     .flex-item {
         width: 400px;
         height: auto;
+        text-decoration: none;
         li {
             font-size: 0.8em;
             @media screen and (max-width: 640px) {
@@ -37,5 +38,17 @@ footer {
         ul {
             list-style: none;
         }
+        @media screen and (max-width: $device-s) {
+            width: 100px;
+            margin-right: 30px;
+        }
+        @media screen and (max-width: $device-m) {
+            width: 100px;
+        }
+          @media screen and (max-width: $device-l) {
+            width: 300px;
+        }
     }
 }
+
+
