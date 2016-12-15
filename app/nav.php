@@ -4,7 +4,15 @@
         <div class="container">
             <ul>
                 <li class="one active"><a href="index.php">Home</a></li>
+                <div id="dropdown" class="ddmenu">
                 <li class="two"><a href="#">Festival</a></li>
+                <ul>
+                    <li><a href="#">Nyheder</a></li>
+                    <li><a href="#">Partnere</a></li>
+                    <li><a href="#">Praktisk</a></li>
+                    <li><a href="#">sfdfdsf</a></li>
+                </ul>
+                </div>
                 <li class="three"><a href="ideavault.php">Idea vault</a></li>
                 <li class="four"><a href="contact.php">Contact</a></li>
                 <li class="five"><a href="tickets.php">Tickets</a></li>
@@ -42,3 +50,4 @@
 </section>
 <section class="background-overlay">
 </section>
+ <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>

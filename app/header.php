@@ -9,5 +9,6 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <script type="text/javascript" src="scripts/jquery-3.1.1.min.js" defer></script>
 </head>
 <body>
