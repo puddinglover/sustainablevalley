@@ -49,5 +49,8 @@ footer {
         ul {
             list-style: none;
         }
+        @media screen and (max-width: $device-m) {
+            width: auto;
+        }
     }
 }
