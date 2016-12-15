@@ -36,15 +36,33 @@
     <ul class="flex-container">
 
     </ul>
+    <!-- Google Maps division tag for inserting and styling map -->
+     <div id="map"></div>
+     
+     <!-- Google Maps 3rd Party -->
+    <script>
+      function initMap() {
+        var uluru = {lat: 56.158690, lng: 10.215539};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru,
+          // added options, so its not possible to zoom or drag map
+          disableDefaultUI: true,
+          draggable: false, 
+          zoomControl: false, 
+          scrollwheel: false
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
 
-    <!-- <div class="contact__map">
-        <iframe
-        width="100%"
-        height="300"
-        frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD6-WST3eTVruByk-40Z3_9ewsJeh8nRYU&q=Space+Needle,Seattle+WA" allowfullscreen>
-        </iframe>
-    </div> -->
+    <!-- Async, Defter makes the api call load after the page load, and makes it ansynchronis-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3l2u0cQC_5VwtsBgC4iIQS8Il4eUz2GU&callback=initMap">
+    </script>
 </div>
 </section>
 
