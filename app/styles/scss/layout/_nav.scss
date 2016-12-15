@@ -85,6 +85,7 @@
     width: 100vw;
     position: fixed;
     display: none;
+    z-index: 2;
     &--active {
         display: block;
     }
@@ -115,6 +116,12 @@
                 padding: 10px 30px;
                 width: 90%;
                 text-align: center;
+                @media screen and (max-width: $device-m) {
+                    width: 94%;
+                }
+                @media screen and (max-width: $device-s) {
+                    width: 90%;
+                }
                 a {
                     font-size: 1em;
                     color: $primary-white;
@@ -154,8 +161,14 @@
         background: none;
         outline: 0;
         position: fixed;
-        left: 75%;
+        left: 77%;
         z-index: 999;
+        @media screen and (max-width: $device-m) {
+            left: 85%;
+        }
+        @media screen and (max-width: $device-s) {
+            left: 77%;
+        }
     }
     @media screen and (min-width: 769px) {
         display: none;

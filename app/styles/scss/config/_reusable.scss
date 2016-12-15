@@ -8,6 +8,9 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    @media screen and (max-width: $device-m) {
+        justify-content: flex-start;
+    }
 }
 .wrapper {
     width: 100%;
@@ -16,7 +19,7 @@
     display: flex;
     flex-flow: row wrap;
     max-width: 1200px;
-    @media screen and (max-width: $device-s) {
+    @media screen and (max-width: $device-m) {
         padding: 0 10px;
     }
 }
@@ -75,7 +78,7 @@
         li {
             margin: 0 15px 0 0;
         }
-        @media screen and (max-width: $device-s) {
+        @media screen and (max-width: $device-m) {
             margin: 0 0 20px;
         }
     }
