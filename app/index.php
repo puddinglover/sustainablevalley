@@ -23,10 +23,10 @@
     <section id="ticket-section" class="tickets">
         <div class="wrapper">
             <div class="tickets__card">
-                <h2>Partoutticket</h2>
+                <h2>Partout ticket</h2>
                 <img class="ticket__picture" src="images/partoutticket.jpg" alt="">
                 <article class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>5 days of innovation and sustainable thinking. Get access to all events and camping in the University Park.</p>
                 </article>
                 <div class="button button--cards">
                     <a href="#">Buy</a>
@@ -36,7 +36,7 @@
                 <h2>One day ticket</h2>
                 <img class="ticket__picture" src="images/1dayticket.jpg" alt="">
                 <article class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Looking forward to a specific event? One day tickets are available for all 5 days. Camping is not included.</p>
                 </article>
                 <div class="button button--cards">
                     <a href="#">Buy</a>
@@ -46,7 +46,7 @@
                 <h2>Support ticket</h2>
                 <img class="ticket__picture" src="images/supportticket.jpg" alt="">
                 <article class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Can't make it to the festival? Buy a support ticket! This is your contribution to a sustainable future.</p>
                 </article>
                 <div class="button button--cards">
                     <a href="#">Buy</a>
@@ -59,7 +59,11 @@
             <div class="sustainability__description-center">
                 <h1>sustainability</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Sustainability is all about caring.
+                    Caring for the world we live in and the people that inhabit it.
+                    We're all in this together so why not help eachother, right?
+                    This festival will gather the innovative minds of 1000 people from all over the globe to create new, sustainable solutions for our planet.<br><br>
+                    Don't miss it.
                 </p>
                 <div class="button">
                     <a href="#">Explore</a>
@@ -84,8 +88,13 @@
             <article class="partners__description">
                 <h1>Partnership</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h2>Interested?</h2>
+                <p>
+                  We value our partnerships. <br>
+                  With their unique approaches to sustainability, every single partner has played a key role in making this festival happen.<br>
+                  Being a partner for Smart Sustainable Valley gives access to a vast network of sustainability minded companies and organisations.
+                  It is not only an investment for this festival. It is an investment in the future.
+                </p>
+                <h3>Interested?</h3>
                 <div class="button">
                     <a href="#">Become partner</a>
                 </div>
@@ -94,19 +103,20 @@
     </section>
     <section class="festival">
         <div class="festival__bottom">
-            <artikel class="festival__description">
+            <article class="festival__description">
                 <img class="bird-logo--bottom" src="images/fuglelogo.svg" alt="">
                 <img class="branch" src="images/branch.svg" alt="">
                 <div class="festival__description-center">
                     <h1>University park</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      In the heart of Aarhus lies the University Park. <br>
+                      This unique University campus will give Smart Sustainable Valley the right setting for 5 days of innovation and sustainable thinking.
                     </p>
                     <div class="button">
                         <a href="#">Buy</a>
                     </div>
                 </div>
-            </artikel>
+            </article>
         </div>
     </section>
 </main>

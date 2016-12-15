@@ -254,9 +254,13 @@
     }
     &__description {
         width: 50%;
-        h1 {
+        h1,
+        h3 {
             color: $primary-blue;
             text-transform: uppercase;
+        }
+        h3 {
+            margin-top: 40px;
         }
         @media screen and (max-width: $device-s) {
             width: 100%;
