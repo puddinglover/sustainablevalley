@@ -36,6 +36,8 @@ else {
         }
     });
 }
+
+    // Adds smooth scrolling functionality to the 'down' button on the landing page
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -57,8 +59,8 @@ $(function() {
         }
     });
 
+    // third party event listner, for hamburger menu, when clicked changes or add classes depending on toggle
     (function() {
-
         'use strict';
 
         document.querySelector('.material-design-hamburger__icon').addEventListener(
@@ -67,7 +69,7 @@ $(function() {
                 var child;
                 document.querySelector('.background-overlay').classList.toggle('background-overlay--active');
                 this.parentNode.nextElementSibling.classList.toggle('menu--on');
-
+                // global varible child which is the second child.classlist
                 child = this.childNodes[1].classList;
 
                 if (child.contains('material-design-hamburger__icon--to-arrow')) {
@@ -81,7 +83,11 @@ $(function() {
             });
 
     })();
+
+    // taken from third party, but jquery script that checks if drop menu is open class- open if open remove class and do it fast
+    // else add class open and slide down fast when clicked.
     $("#dropdown").on("click", function(e) {
+      // prevent default click
         e.preventDefault();
 
         if ($(this).hasClass("open")) {
