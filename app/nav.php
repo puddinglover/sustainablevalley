@@ -3,7 +3,7 @@
     <nav>
         <div class="container">
             <ul>
-                <li class="one"><a href="index.php">Home</a></li>
+                <li class="one"><a href="../smartsustainablevalley/index.php">Home</a></li>
                 <li id="dropdown" class="two"><a href="#">Festival</a>
                     <ul>
                         <li><a href="#">Nyheder</a></li>
@@ -13,8 +13,8 @@
                     </ul>
                 </li>
                 <li class="three"><a href="../ideavault/">Idea Vault</a></li>
-                <li class="four"><a href="contact.php">Contact</a></li>
-                <li class="five"><a href="tickets.php">Tickets</a></li>
+                <li class="four"><a href="../smartsustainablevalley/contact.php">Contact</a></li>
+                <li class="five"><a href="../smartsustainablevalley/tickets.php">Tickets</a></li>
                 <div class="underline"></div>
             </ul>
         </div>
@@ -40,11 +40,11 @@
    </ul>
  </div>
  <div class="menu__container">
-   <div class="one"><a href="index.php">Home</a></div>
+   <div class="one"><a href="../smartsustainablevalley/index.php">Home</a></div>
    <div class="two"><a href="#">Festival</a></div>
    <div class="three"><a href="../ideavault/">Idea Vault</a></div>
-   <div class="four"><a href="contact.php">Contact</a></div>
-   <div class="five button"><a href="tickets.php">Buy ticket</a></div>
+   <div class="four"><a href="../smartsustainablevalley/contact.php">Contact</a></div>
+   <div class="five button"><a href="../smartsustainablevalley/tickets.php">Buy ticket</a></div>
 </div>
 </section>
 <section class="background-overlay">

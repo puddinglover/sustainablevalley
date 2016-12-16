@@ -3,15 +3,15 @@
       <li class="flex-item">
           <h3>Sitemap</h3>
           <ul>
-              <li><a href="/index.php">Home</a></li>
-              <li><a href="/index.php">Festival</a></li>
-              <li><a href="/index.php"> - News</a></li>
-              <li><a href="/index.php"> - Partners</a></li>
-              <li><a href="/index.php"> - Information</a></li>
-              <li><a href="/index.php"> - Program</a></li>
+              <li><a href="../smartsustainablevalley/index.php">Home</a></li>
+              <li><a href="../smartsustainablevalley/index.php">Festival</a></li>
+              <li><a href="../smartsustainablevalley/index.php"> - News</a></li>
+              <li><a href="../smartsustainablevalley/index.php"> - Partners</a></li>
+              <li><a href="../smartsustainablevalley/index.php"> - Information</a></li>
+              <li><a href="../smartsustainablevalley/index.php"> - Program</a></li>
               <li><a href="../ideavault/">Idea Vault</a></li>
-              <li><a href="/contact.php">Contact</a></li>
-              <li><a href="/tickets.php">Tickets</a></li>
+              <li><a href="../smartsustainablevalley/contact.php">Contact</a></li>
+              <li><a href="../smartsustainablevalley/tickets.php">Tickets</a></li>
           </ul>
       </li>
       <li class="flex-item">
