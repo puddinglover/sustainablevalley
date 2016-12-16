@@ -1,5 +1,5 @@
 <header class="nav-wrapper">
-    <img class="bird-logo" src="images/fuglelogo.svg" alt="" title="Pip pip!">
+    <img class="bird-logo" src="images/fuglelogo.svg" alt="Bird" title="Pip pip!">
     <nav>
         <div class="container">
             <ul>

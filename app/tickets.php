@@ -14,7 +14,7 @@
         <div class="wrapper">
             <div class="tickets__card">
                 <h2>Partout ticket</h2>
-                <img class="ticket__picture" src="images/partoutticket.jpg" alt="">
+                <img class="ticket__picture" src="images/partoutticket.jpg" alt="Partout Ticket">
                 <article class="">
                     <p>5 days of innovation and sustainable thinking. Get access to all events and camping in the University Park.</p>
                 </article>
@@ -24,7 +24,7 @@
             </div>
             <div class="tickets__card">
                 <h2>One day ticket</h2>
-                <img class="ticket__picture "src="images/1dayticket.jpg" alt="">
+                <img class="ticket__picture "src="images/1dayticket.jpg" alt="One Day Ticket">
                 <article class="">
                     <p>Looking forward to a specific event? One day tickets are available for all 5 days. Camping is not included.</p>
                 </article>
@@ -34,7 +34,7 @@
             </div>
             <div class="tickets__card">
                 <h2>Support ticket</h2>
-                <img  class="ticket__picture" src="images/supportticket.jpg"  alt="">
+                <img  class="ticket__picture" src="images/supportticket.jpg"  alt="Support Ticket">
                 <article class="">
                     <p>Can't make it to the festival? Buy a support ticket! This is your contribution to a sustainable future.</p>
                 </article>

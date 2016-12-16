@@ -17,7 +17,7 @@
 
     <ul class="flex-container">
         <li class="contact__person">
-            <img src="https://spotter.one/images/S%C3%B8ren-Winther-Lundby.jpg" alt="">
+            <img src="https://spotter.one/images/S%C3%B8ren-Winther-Lundby.jpg" alt="Søren Winther Lundby">
         </li>
         <li class="contact__person">
             <h1>Søren Winther Lundby</h1>
@@ -26,7 +26,7 @@
             <p>Phone: +45 40276064</p>
         </li>
         <li class="contact__person">
-            <img src="https://spotter.one/images/Thusan-Ceylons.jpg" alt="">
+            <img src="https://spotter.one/images/Thusan-Ceylons.jpg" alt="Thusan Ceylons">
         </li>
         <li class="contact__person">
             <h1>Thusan Ceylons</h1>
