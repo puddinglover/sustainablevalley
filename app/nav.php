@@ -12,7 +12,7 @@
                         <li><a href="#">Program</a></li>
                     </ul>
                 </li>
-                <li class="three"><a href="ideavault.php">Idea vault</a></li>
+                <li class="three"><a href="../ideavault/">Idea Vault</a></li>
                 <li class="four"><a href="contact.php">Contact</a></li>
                 <li class="five"><a href="tickets.php">Tickets</a></li>
                 <div class="underline"></div>
@@ -42,7 +42,7 @@
  <div class="menu__container">
    <div class="one"><a href="index.php">Home</a></div>
    <div class="two"><a href="#">Festival</a></div>
-   <div class="three"><a href="ideavault.php">Idea vault</a></div>
+   <div class="three"><a href="../ideavault/">Idea Vault</a></div>
    <div class="four"><a href="contact.php">Contact</a></div>
    <div class="five button"><a href="tickets.php">Buy ticket</a></div>
 </div>

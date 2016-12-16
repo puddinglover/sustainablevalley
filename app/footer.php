@@ -9,6 +9,7 @@
               <li><a href="/index.php"> - Partners</a></li>
               <li><a href="/index.php"> - Information</a></li>
               <li><a href="/index.php"> - Program</a></li>
+              <li><a href="../ideavault/">Idea Vault</a></li>
               <li><a href="/contact.php">Contact</a></li>
               <li><a href="/tickets.php">Tickets</a></li>
           </ul>
